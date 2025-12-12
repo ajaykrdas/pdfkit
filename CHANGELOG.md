@@ -2,6 +2,12 @@
 
 ### Unreleased
 
+- Fix garbled text copying in Chrome/Edge for PDFs with >256 unique characters (#1659)
+
+### [v0.17.2] - 2025-08-30
+
+- Fix rendering lists that spans across pages
+
 ### [v0.17.1] - 2025-05-02
 
 - Fix null values in table cells rendering as `[object Object]`
